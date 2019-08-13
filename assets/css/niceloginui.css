@@ -1,0 +1,51 @@
+/*
+Khaleb O'Brien
+Tue, 13 Aug, 2019
+*/
+body {
+	font-family: Comic Sans MS, Consolas, Tahoma;
+	background-image:url(../assets/images/2560x1600_background.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-left: none;
+}
+.cell { 
+	padding: 16px; 
+} 
+.input { 
+	width: 100%; 
+	padding: 12px 20px; 
+	margin: 8px 0; 
+	display: inline-block; 
+	border: 1px solid #ccc; 
+	box-sizing: border-box; 
+}
+.button { 
+	background-color: #ffa07a; 
+	color: white; 
+	padding: 14px 20px; 
+	margin: 8px 0; 
+	border: none; 
+	cursor: pointer; 
+	width: 100%; 
+} 
+button:hover { 
+	opacity: 0.8; 
+} 
+input[type=text], input[type=password] {
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #ffffff;
+}
+.my-navbar-format{
+    background-color: rgba(0, 130, 200, 0.35);
+    border-top: solid 2px #333;
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: none;
+    margin-top: 650px;
+    width: 1280px;
+    display: block;
+    z-index: 1000;
+}

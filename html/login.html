@@ -4,76 +4,11 @@
 	<title>O'Brien | Admin mode</title>
 	<meta http-equiv="Content-Type" charset="UTF-8">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
-<!--*************************************************************************
-		*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*	
-		*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*
-		*.*.*															*.*.*
-		*.*.*	Project Name: 	Simple Login Page						*.*.*
-		*.*.*	Purpose:		To be used as admin login portal		*.*.*
-		*.*.*					for s********g m**l (coming soon)		*.*.*
-		*.*.*	Developed By:	Caleb Uche (Khaleb O'Brien) 			*.*.*
-		*.*.*															*.*.*
-		*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*
-		*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*
-		***************************************************************************-->
-<script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-  crossorigin="anonymous"></script>
-	<style type="text/css">
-		body {
-			font-family: Comic Sans MS, Consolas, Tahoma;
-			background-image:url(2560x1600_background.jpg);
-			-webkit-background-size: cover;
-			background-size: cover;
-			margin-left: none;
-		}
-		.cell { 
-			padding: 16px; 
-		} 
-		.input { 
-			width: 100%; 
-			padding: 12px 20px; 
-			margin: 8px 0; 
-			display: inline-block; 
-			border: 1px solid #ccc; 
-			box-sizing: border-box; 
-		}
-		.button { 
-			background-color: #ffa07a; 
-			color: white; 
-			padding: 14px 20px; 
-			margin: 8px 0; 
-			border: none; 
-			cursor: pointer; 
-			width: 100%; 
-		} 
-		button:hover { 
-			opacity: 0.8; 
-		} 
-		input[type=text], input[type=password] {
-			background-color: transparent;
-			border: none;
-			border-bottom: 2px solid #ffffff;
-		}
-		.my-navbar-format{
-		    background-color: rgba(0, 130, 200, 0.35);
-		    border-top: solid 2px #333;
-		    position: fixed;
-		    padding-top: 20px;
-		    padding-bottom: 30px;
-		    margin: none;
-		    margin-top: 650px;
-		    width: 1280px;
-		    display: block;
-		    z-index: 1000;
-		}
-	</style>
-<script type="text/javascript">
-	$('document').ready(function(){
-		$('#ldata').fadeIn(2000).css({'height':'60%' , 'width':'30%' , 'box-shadow':'#333 0 0 8px' , 'position':'fixed' , 'top':'15%', 'left':'35%' , 'z-index':'10' , 'padding-top':'60px'
-		});
-		$('.cell').css({'padding':'5px' , 'margin':'15px'})	
-	});
-</script>
+
+	<link rel="stylesheet" type="text/css" href="../assets/css/niceloginui.css">
+	<link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../dist/css/font-awesome-5.8.2/css/all.min.css">
+</head>
 
 
 </head>
@@ -108,5 +43,8 @@
   </div>
 
 </nav>
+
+	<script type="text/javascript" src="../dist/js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="../dist/js/bootstrap.min.js"></script>
 </body>
 </html>
