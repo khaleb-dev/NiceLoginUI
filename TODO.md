@@ -4,4 +4,5 @@ This is a TODO list for NiceLoginUI.
 
 ## Documentation
 
-- create new login pages
+- update previous login page(s).
+- create new login pages.
